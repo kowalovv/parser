@@ -1,0 +1,49 @@
+<store xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="store.xsd">
+    <departments>
+        <department id="1">
+            <name>Sales</name>
+            <employees>
+                <employee id="1">
+                    <firstName>Patryk</firstName>
+                    <lastName>Kowalow</lastName>
+                    <details>
+                        <detail id="1">
+                            <address>St. Siemianowicka 1, 52-007 Wroclaw</address>
+                            <phoneNumber>661000222</phoneNumber>
+                        </detail>
+                    </details>
+                </employee>
+
+                <employee id="2">
+                    <firstName>John</firstName>
+                    <lastName>Wick</lastName>
+                    <details>
+                        <detail id="2">
+                            <address>St. NewYork 3, 22-007 LA</address>
+                            <phoneNumber>333222444</phoneNumber>
+                        </detail>
+                    </details>
+                </employee>
+            </employees>
+        </department>
+    </departments>
+
+    <orders>
+        <order id="1">
+            <amount>10000</amount>
+            <status>in progress</status>
+            <startDate>2024-01-03T12:30:00</startDate>
+            <endDate>2024-01-10T15:45:00</endDate>
+            <products>
+                <product id="1">
+                    <name>RTX 4070TI</name>
+                    <producer>nVidia</producer>
+                </product>
+                <product id="2">
+                    <name>GTX 1660TI</name>
+                    <producer>nVidia</producer>
+                </product>
+            </products>
+        </order>
+    </orders>
+</store>
